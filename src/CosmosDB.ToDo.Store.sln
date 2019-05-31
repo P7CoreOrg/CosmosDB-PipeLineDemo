@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.ToDo.Store", "CosmosDB.ToDo.Store\CosmosDB.ToDo.Store.csproj", "{E548E30A-28B8-4E01-8CE4-62BC9A13043A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest_ToDo_Store", "XUnitTest_ToDo_Store\XUnitTest_ToDo_Store.csproj", "{ED2E09C2-95BF-4D10-989B-768070F9425A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitHelpers", "XUnitHelpers\XUnitHelpers.csproj", "{25557A0C-3203-4AF8-9BB6-AFBA9BD95FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E548E30A-28B8-4E01-8CE4-62BC9A13043A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E548E30A-28B8-4E01-8CE4-62BC9A13043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E548E30A-28B8-4E01-8CE4-62BC9A13043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E548E30A-28B8-4E01-8CE4-62BC9A13043A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2E09C2-95BF-4D10-989B-768070F9425A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2E09C2-95BF-4D10-989B-768070F9425A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2E09C2-95BF-4D10-989B-768070F9425A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2E09C2-95BF-4D10-989B-768070F9425A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25557A0C-3203-4AF8-9BB6-AFBA9BD95FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25557A0C-3203-4AF8-9BB6-AFBA9BD95FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25557A0C-3203-4AF8-9BB6-AFBA9BD95FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25557A0C-3203-4AF8-9BB6-AFBA9BD95FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B76AAA27-82FB-4689-8A5A-896BAEB08417}
+	EndGlobalSection
+EndGlobal
